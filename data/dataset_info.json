@@ -3,17 +3,9 @@
     "file_name": "alpaca_data_en_52k.json",
     "file_sha1": "607f94a7f581341e59685aef32f531095232cf23"
   },
-  "alpaca_zh": {
-    "file_name": "alpaca_data_zh_51k.json",
-    "file_sha1": "e655af3db557a4197f7b0cf92e1986b08fae6311"
-  },
   "alpaca_gpt4_en": {
     "file_name": "alpaca_gpt4_data_en.json",
     "file_sha1": "647f4ad447bd993e4b6b6223d1be15208bab694a"
-  },
-  "alpaca_gpt4_zh": {
-    "file_name": "alpaca_gpt4_data_zh.json",
-    "file_sha1": "3eaa3bda364ccdd59925d7448a698256c31ef845"
   },
   "self_cognition": {
     "file_name": "self_cognition.json",
@@ -198,29 +190,10 @@
     "hf_hub_url": "WizardLM/WizardLM_evol_instruct_V2_196k",
     "formatting": "sharegpt"
   },
-  "glaive_toolcall": {
-    "file_name": "glaive_toolcall_10k.json",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "conversations",
-      "tools": "tools"
-    }
-  },
   "hh_rlhf_en": {
     "script_url": "hh_rlhf_en",
     "columns": {
       "prompt": "instruction",
-      "response": "output",
-      "history": "history"
-    },
-    "ranking": true
-  },
-  "oaast_rm": {
-    "file_name": "oaast_rm.json",
-    "file_sha1": "622d420e9b70003b210618253bd3d9d2891d86cb",
-    "columns": {
-      "prompt": "instruction",
-      "query": "input",
       "response": "output",
       "history": "history"
     },
@@ -318,5 +291,71 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "tiny_strange_textbooks": {
+    "hf_hub_url": "nampdn-ai/tiny-strange-textbooks",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "tiny_textbooks": {
+    "hf_hub_url": "nampdn-ai/tiny-textbooks",
+    "columns": {
+      "prompt": "textbook"
+    }
+  },
+  "code_textbook": {
+    "hf_hub_url": "vilm/code-textbooks",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "the_stack_smol_xl": {
+    "hf_hub_url": "bigcode/the-stack-smol-xl",
+    "columns": {
+      "prompt": "content"
+    }
+  },
+  "the_stack_smol_xl_cleaned": {
+    "hf_hub_url": "vilm/the-stack-smol-xl-cleaned",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "refinedweb_1m_medium": {
+    "hf_hub_url": "vilm/refinedweb-1m-medium",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "redpajama_v2_small": {
+    "hf_hub_url": "vilm/RedPajama-v2-small",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "redpajama_v2_xsmall": {
+    "hf_hub_url": "vilm/RedPajama-v2-xsmall",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "minipile": {
+    "hf_hub_url": "JeanKaddour/minipile",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "goodwiki": {
+    "hf_hub_url": "euirim/goodwiki",
+    "columns": {
+      "prompt": "markdown"
+    }
+  },
+  "wikipedia_vi": {
+    "hf_hub_url": "vilm/vi-wiki",
+    "columns": {
+      "prompt": "text"
+    }
   }
 }
