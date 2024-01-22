@@ -458,7 +458,7 @@ register_template(
 
 
 register_template(
-    name="qwen",
+    name="chatml",
     format_user=StringFormatter(container=["<|im_start|>user\n{{content}}<|im_end|>\n<|im_start|>assistant\n"]),
     format_system=StringFormatter(container=["<|im_start|>system\n{{content}}<|im_end|>\n"]),
     system="You are a helpful assistant.",
