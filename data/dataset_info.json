@@ -199,25 +199,9 @@
     },
     "ranking": true
   },
-  "oaast_rm_zh": {
-    "file_name": "oaast_rm_zh.json",
-    "file_sha1": "1065af1f3784dd61be5e79713a35f427b713a232",
-    "columns": {
-      "prompt": "instruction",
-      "query": "input",
-      "response": "output",
-      "history": "history"
-    },
-    "ranking": true
-  },
   "comparison_gpt4_en": {
     "file_name": "comparison_gpt4_data_en.json",
     "file_sha1": "96fa18313544e22444fe20eead7754b17da452ae",
-    "ranking": true
-  },
-  "comparison_gpt4_zh": {
-    "file_name": "comparison_gpt4_data_zh.json",
-    "file_sha1": "515b18ed497199131ddcc1af950345c11dc5c7fd",
     "ranking": true
   },
   "nectar_rm": {
@@ -354,6 +338,54 @@
   },
   "wikipedia_vi": {
     "hf_hub_url": "vilm/vi-wiki",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_arxiv": {
+    "hf_hub_url": "vilm/MathPile-arXiv",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_arxiv_medium": {
+    "hf_hub_url": "vilm/MathPile-arXiv-medium",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_stackexchange": {
+    "hf_hub_url": "vilm/MathPile-StackExchange",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_proofpile": {
+    "hf_hub_url": "vilm/MathPile-ProofWiki",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_wikipedia": {
+    "hf_hub_url": "vilm/MathPile-Wikipedia",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "mathpile_textbooks": {
+    "hf_hub_url": "vilm/MathPile-Textbooks",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "thevault_function_xsmall": {
+    "hf_hub_url": "vilm/TheVault-Function-xsmall",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "thevault_class_xsmall": {
+    "hf_hub_url": "vilm/TheVault-Class-xsmall",
     "columns": {
       "prompt": "text"
     }
